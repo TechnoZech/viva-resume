@@ -1,5 +1,5 @@
 .nav-section{
-    background-color: #FBCF03;
+    background-color: #01a2a8;
     height: 72px;
     width: 100vw;
     position: fixed;
@@ -14,13 +14,13 @@
 }
 
 .logo{
-    width: 200px;
+    width: 150px;
     
 }
 
 .login-btn{
     color: #181818;
     background-color: #ECF4F3;
-    padding: 10px 30px;
+    padding: 7px 30px;
     border-radius: 5px;
 }
