@@ -6,6 +6,8 @@
     margin: 0;
 }
 
+/* <<========================= Side bar ========================>> */
+
 .main-body-div{
     margin: auto;
     height: 100vh;
@@ -13,15 +15,6 @@
     display: flex;
     justify-content: space-between;
     
-}
-
-.from-div{
-    height: 80%;
-    width: 77%;
-    margin-top: 100px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
-    padding: 20px 40px;
 }
 
 .option-div{
@@ -57,7 +50,7 @@
 
 .download-btn{
     background-color: #00bcc2;
-    color: #FFFFFF;
+    color: #EFF2F9;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -65,13 +58,110 @@
     margin-top: 50px;
 }
 
+.download-btn:hover{
+    background-color: #02a7ac;
+    transition: all 0.5s ease;
+}
+
 .active{
     background-color: #01a2a8;
-    transition: all 0.5s ease;
+    color: #EFF2F9;
 }
 
 .color-btn{
     border: none;
     width: 30px;
     margin-right: 10px;
+}
+
+
+
+/* <<========================= Main Form section ========================>> */
+
+.form-container{
+    height: 80%;
+    width: 77%;
+    margin-top: 100px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    padding: 30px 80px 130px 80px;
+    overflow: auto;
+}
+
+.form-label-div{
+    display: flex;
+}
+
+.form-title-label{
+    font-weight: 500;
+    font-size: 1.1rem;
+    letter-spacing: 0.3px;
+}
+
+.input{
+    border: none;
+    outline: none;
+    background-color: #EFF2F9;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #5a5f6b;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    letter-spacing: 0.4px;
+}
+
+.input:hover{
+    border-bottom: 3px solid #01a2a8;
+}
+
+
+
+
+.form-div{
+    display: flex;
+    gap: 5%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.form-input-div{
+    display: flex;
+    flex-direction: column;
+    width: 47%;
+}
+
+.form-label{
+    font-weight: 400;
+    font-size: 0.9rem;
+    color: #6b6f7d;
+    margin-top: 20px;
+}
+.form-input{
+    border: none;
+    outline: none;
+    background-color: #EFF2F9;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #000000; 
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-top: 10px;
+    letter-spacing: 0.5px;
+}
+
+.form-input::placeholder{
+    color: #c6c9cf;
+    letter-spacing: 0.5px;
+}
+
+.address-input-div{
+    display: flex;
+    flex-direction: column;
+}
+
+.address-input{
+    width: 100%;
 }
