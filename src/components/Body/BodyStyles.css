@@ -93,10 +93,16 @@
 }
 
 .form-title-label{
+    display: flex;
     font-weight: 500;
     font-size: 1.1rem;
     letter-spacing: 0.3px;
 }
+
+.edit{
+    padding: 4px 4px 5px 4px;
+    margin-left: 5px;
+ }
 
 .input{
     border: none;
@@ -139,7 +145,7 @@
     color: #6b6f7d;
     margin-top: 20px;
 }
-.form-input{
+.form-input, .summary-input{
     border: none;
     outline: none;
     background-color: #EFF2F9;
@@ -165,3 +171,24 @@
 .address-input{
     width: 100%;
 }
+
+ /* <---------------   Work experience  ----------------> */
+
+
+ .summary-div{
+    display: flex;
+    flex-direction: column;
+ }
+
+ .summary-input{
+    resize: none;
+ }
+
+/* <---------------   Projects  ----------------> */
+
+ .oneline-input{
+    display: flex;
+    flex-direction: column;
+ }
+
+ 
